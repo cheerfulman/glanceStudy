@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B65E42D2ACBEDBF00B74A61 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B65E42C2ACBEDBF00B74A61 /* Words.swift */; };
+		2B65E4362ACC2B7600B74A61 /* CET-4 in Resources */ = {isa = PBXBuildFile; fileRef = 2B65E4352ACC2B7600B74A61 /* CET-4 */; };
+		2BA48ABC2ACC54A700C5B023 /* CET-zheng in Resources */ = {isa = PBXBuildFile; fileRef = 2BA48ABB2ACC54A700C5B023 /* CET-zheng */; };
+		2BA48ABE2ACD210A00C5B023 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA48ABD2ACD210A00C5B023 /* MenuBar.swift */; };
 		2BFDC3972ACB04700063EFE4 /* study_wordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC3962ACB04700063EFE4 /* study_wordApp.swift */; };
 		2BFDC3992ACB04700063EFE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC3982ACB04700063EFE4 /* ContentView.swift */; };
 		2BFDC39B2ACB04710063EFE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BFDC39A2ACB04710063EFE4 /* Assets.xcassets */; };
 		2BFDC39E2ACB04710063EFE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BFDC39D2ACB04710063EFE4 /* Preview Assets.xcassets */; };
+		2BFDC3A72ACB065A0063EFE4 /* store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC3A62ACB065A0063EFE4 /* store.swift */; };
+		2BFDC3A92ACB06CE0063EFE4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC3A82ACB06CE0063EFE4 /* LoginView.swift */; };
+		2BFDC3AB2ACB07E70063EFE4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC3AA2ACB07E70063EFE4 /* MainView.swift */; };
+		2BFDC3AD2ACB09D20063EFE4 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC3AC2ACB09D20063EFE4 /* SideBarView.swift */; };
+		2BFDC3AF2ACB0A2A0063EFE4 /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC3AE2ACB0A2A0063EFE4 /* Conversation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B65E42C2ACBEDBF00B74A61 /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
+		2B65E4352ACC2B7600B74A61 /* CET-4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CET-4"; sourceTree = "<group>"; };
+		2BA48ABB2ACC54A700C5B023 /* CET-zheng */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CET-zheng"; sourceTree = "<group>"; };
+		2BA48ABD2ACD210A00C5B023 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 		2BFDC3932ACB04700063EFE4 /* study_word.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = study_word.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BFDC3962ACB04700063EFE4 /* study_wordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = study_wordApp.swift; sourceTree = "<group>"; };
 		2BFDC3982ACB04700063EFE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2BFDC39A2ACB04710063EFE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BFDC39D2ACB04710063EFE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2BFDC39F2ACB04710063EFE4 /* study_word.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = study_word.entitlements; sourceTree = "<group>"; };
+		2BFDC3A62ACB065A0063EFE4 /* store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = store.swift; sourceTree = "<group>"; };
+		2BFDC3A82ACB06CE0063EFE4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2BFDC3AA2ACB07E70063EFE4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2BFDC3AC2ACB09D20063EFE4 /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
+		2BFDC3AE2ACB0A2A0063EFE4 /* Conversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B65E4322ACC257800B74A61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B65E4352ACC2B7600B74A61 /* CET-4 */,
+				2BA48ABB2ACC54A700C5B023 /* CET-zheng */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		2BFDC38A2ACB04700063EFE4 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +79,9 @@
 		2BFDC3952ACB04700063EFE4 /* study_word */ = {
 			isa = PBXGroup;
 			children = (
+				2B65E4322ACC257800B74A61 /* Resources */,
+				2BFDC3B02ACB16640063EFE4 /* View */,
+				2BFDC3A52ACB063B0063EFE4 /* Models */,
 				2BFDC3962ACB04700063EFE4 /* study_wordApp.swift */,
 				2BFDC3982ACB04700063EFE4 /* ContentView.swift */,
 				2BFDC39A2ACB04710063EFE4 /* Assets.xcassets */,
@@ -67,6 +97,27 @@
 				2BFDC39D2ACB04710063EFE4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BFDC3A52ACB063B0063EFE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2BFDC3AE2ACB0A2A0063EFE4 /* Conversation.swift */,
+				2BFDC3A62ACB065A0063EFE4 /* store.swift */,
+				2B65E42C2ACBEDBF00B74A61 /* Words.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2BFDC3B02ACB16640063EFE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BFDC3A82ACB06CE0063EFE4 /* LoginView.swift */,
+				2BFDC3AA2ACB07E70063EFE4 /* MainView.swift */,
+				2BFDC3AC2ACB09D20063EFE4 /* SideBarView.swift */,
+				2BA48ABD2ACD210A00C5B023 /* MenuBar.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +162,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-HK",
+				"zh-Hans",
 			);
 			mainGroup = 2BFDC38A2ACB04700063EFE4;
 			productRefGroup = 2BFDC3942ACB04700063EFE4 /* Products */;
@@ -127,7 +180,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B65E4362ACC2B7600B74A61 /* CET-4 in Resources */,
 				2BFDC39E2ACB04710063EFE4 /* Preview Assets.xcassets in Resources */,
+				2BA48ABC2ACC54A700C5B023 /* CET-zheng in Resources */,
 				2BFDC39B2ACB04710063EFE4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +194,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BFDC3A72ACB065A0063EFE4 /* store.swift in Sources */,
 				2BFDC3992ACB04700063EFE4 /* ContentView.swift in Sources */,
+				2BFDC3A92ACB06CE0063EFE4 /* LoginView.swift in Sources */,
+				2BFDC3AD2ACB09D20063EFE4 /* SideBarView.swift in Sources */,
+				2BFDC3AF2ACB0A2A0063EFE4 /* Conversation.swift in Sources */,
+				2BA48ABE2ACD210A00C5B023 /* MenuBar.swift in Sources */,
+				2B65E42D2ACBEDBF00B74A61 /* Words.swift in Sources */,
+				2BFDC3AB2ACB07E70063EFE4 /* MainView.swift in Sources */,
 				2BFDC3972ACB04700063EFE4 /* study_wordApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,7 +259,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -251,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -277,6 +339,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "CheerJia.study-word";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +365,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "CheerJia.study-word";
 				PRODUCT_NAME = "$(TARGET_NAME)";
